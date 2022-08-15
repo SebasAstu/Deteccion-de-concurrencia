@@ -11,9 +11,11 @@ class Grafo
 
 public:
 	Grafo(int V);
+	// se procede a agregar las aristas solicitadas
 	void agregarArista(int v1, int v2);
 	// se hace una busqueda en profundidad desde un vertice para buscar ciclos
 	bool busquedaEnProfundidad(int v);
+	// busca el ciclo de la pila 
 	bool buscarCiclo();
 	void mostrarGrafo();
 };
